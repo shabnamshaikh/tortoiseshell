@@ -1,0 +1,139 @@
+body {
+  font-family: Helvetica;
+  font-size: 18px;
+  line-height: 1.4;
+
+}
+header nav {
+  padding: 1rem 0;
+  background-color: cadetblue;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header {
+  display: block;
+  background-image: url("../images/glasses-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: auto;
+  padding-top: 1rem;
+  height: 30rem;
+}
+
+.container {
+  width: 960px;
+  margin: auto;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 1.5rem;
+  margin-left: 2rem;
+  margin-right: 1rem;
+}
+
+.menu ul {
+  display: flex;
+}
+
+.menu ul li {
+  padding-right: 2rem;
+}
+.menu ul li a{
+  color: white;
+  text-decoration: none;
+}
+
+.banner {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.banner-content {
+  margin-top: 10rem;
+  background-color: white;
+  padding: 1.5rem 5rem;
+}
+.banner-content h1 {
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 2.4rem;
+  padding: 0.75rem 2rem;
+}
+
+.option-exams {
+  display: flex;
+  align-item: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.option-item {
+  width: 5rem;
+  height: 8rem;
+  margin: 3rem;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  display: flex;
+}
+
+.option-item img.paper {
+  width: 3.5rem;
+}
+
+.option-item img {
+  width: 5rem;
+}
+
+.option-item span {
+  width: 3rem;
+}
+
+.information {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.info {
+  width: 35%;
+  margin-right: 5%;
+  margin-bottom: 5rem;
+}
+
+.info span {
+  display: block;
+  background-color: cadetblue;
+  font-weight: bold;
+  font-size: 1rem;
+  color: white;
+  padding: 0.5rem 1.25rem;
+  width: 10rem;
+}
+
+.info p {
+  margin-top: 1rem;
+}
+
+footer {
+  background-color: azure;
+}
+
+.copyright {
+  padding: 4rem;
+  display: flex;
+  align-items: center;
+}
+.copyright img {
+  height: 1.5rem;
+  padding-right: 1rem;
+}
