@@ -2,8 +2,8 @@ body {
   font-family: Helvetica;
   font-size: 18px;
   line-height: 1.4;
-
 }
+
 header nav {
   padding: 1rem 0;
   background-color: cadetblue;
@@ -12,6 +12,7 @@ header nav {
   align-items: center;
   justify-content: space-between;
 }
+
 header {
   display: block;
   background-image: url("../images/glasses-bg.png");
@@ -61,6 +62,7 @@ header {
   background-color: white;
   padding: 1.5rem 5rem;
 }
+
 .banner-content h1 {
   font-weight: bold;
   font-size: 2rem;
@@ -133,7 +135,98 @@ footer {
   display: flex;
   align-items: center;
 }
+
 .copyright img {
   height: 1.5rem;
   padding-right: 1rem;
+}
+
+.menu ul.mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 1024px) {
+  .container {
+    width: 100%;
+  }
+  header {
+    padding-top: 0;
+    height: 22rem;
+  }
+  .banner-content h1 {
+    font-size: 1.33rem;
+  }
+  .banner-content {
+    margin-top: 5rem;
+    background-color: white;
+    padding: 0.75rem 4rem;
+    margin-right: 2rem;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .container {
+    width: 100%;
+  }
+
+  .menu ul.mobile {
+    display: inline-block;
+  }
+
+  .menu ul.desktop {
+    display: none;
+  }
+  header {
+    height: 17rem;
+    background-position: 20%;
+  }
+
+  .banner-content {
+    margin-top: 9rem;
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-right: 0;
+  }
+  .banner-content h1 {
+    line-height: normal;
+    padding: 0;
+  }
+
+  .option-item {
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 1.54rem;
+    font-size: 0.77rem;
+    height: auto;
+  }
+
+  .option-item img {
+    margin-bottom: 1rem;
+  }
+
+  .option-exams {
+    margin: 3.77rem 0;
+  }
+
+  .info {
+    width: 100%;
+    margin-bottom: 4rem;
+  }
+
+  .info span {
+    width: 100%;
+    text-align: center;
+  }
+
+  .info p {
+    font-size: 0.77rem;
+  }
+
+  footer span {
+    display: none;
+  }
+  .copyright img {
+    margin: auto;
+  }
 }
